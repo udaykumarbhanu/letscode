@@ -25,7 +25,6 @@ class Solution(object):
         return " ".join(s_lst)
 
 
-
 if __name__ == '__main__':
     s = "the sky is blue"
     print Solution().reverseWords(s)
