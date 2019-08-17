@@ -35,6 +35,7 @@ class Solution(object):
         s_lst.reverse()
 
         return " ".join(s_lst)
+    
 if __name__ == '__main__':
     s = "  hello world!  "
     print Solution().reverseWords(s)
